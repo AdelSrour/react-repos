@@ -1,0 +1,16 @@
+.form-control,
+.form-control:focus {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  outline: none;
+}
+
+.custom-button {
+  text-decoration: none;
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}

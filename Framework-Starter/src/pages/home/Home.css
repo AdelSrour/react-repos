@@ -1,0 +1,30 @@
+.home {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+.home-content {
+  min-height: 85vh;
+}
+
+.headingline i {
+  vertical-align: middle;
+}
+
+.headingline::before {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 80px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.headingline::after {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 80px;
+  background-color: #fff;
+  margin-left: 10px;
+}

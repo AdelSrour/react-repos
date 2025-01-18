@@ -1,0 +1,58 @@
+.portfoilo {
+  background-color: #fff;
+  color: 000;
+}
+
+.headinglinep i {
+  vertical-align: middle;
+}
+
+.headinglinep::before {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 80px;
+  background-color: #000;
+  margin-right: 10px;
+}
+
+.headinglinep::after {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 80px;
+  background-color: #000;
+  margin-left: 10px;
+}
+
+.card {
+  position: relative;
+  z-index: 10;
+}
+
+.card-overlay {
+  font-size: 5rem;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: #1abc9c;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.card:hover .card-overlay {
+  opacity: 0.9;
+}
+
+.custom-modal {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
